@@ -1,0 +1,12 @@
+
+GET http://localhost:8000/products/3
+
+###
+
+POST http://localhost:8000/add
+Content-Type: application/json
+
+{
+    "title": "test",
+    "id": "5"
+}
